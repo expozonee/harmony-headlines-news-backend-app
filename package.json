@@ -1,15 +1,35 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
+  "name": "harmony-headlines-news-backend-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch index.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expozonee/harmony-headlines-news-backend-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/expozonee/harmony-headlines-news-backend-app/issues"
+  },
+  "homepage": "https://github.com/expozonee/harmony-headlines-news-backend-app#readme",
   "devDependencies": {
-    "typescript": "~5.6.2",
-    "vite": "^6.0.1"
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "tsx": "^4.19.2"
   }
 }
